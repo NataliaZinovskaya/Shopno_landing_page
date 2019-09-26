@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=$(".btn-top");$(window).on("scroll",function(){250<=$(window).scrollTop()?t.fadeIn():t.fadeOut()}),t.on("click",function(){$("html, body").animate({scrollTop:0},900)}),$(".single-item").slick({prevArrow:'<button type="button" class="prev"></button>',nextArrow:'<button type="button" class="next"></button>'})});

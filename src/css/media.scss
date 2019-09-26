@@ -1,0 +1,394 @@
+@media screen and (min-width : 320px) and (max-width : 760px) {
+  .btn-top {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  .glass {
+    right: 30px;
+    bottom: 45px;
+    width: 75px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 84px;
+  }
+
+  .header-button {
+    width: 178px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .title-block {
+    width: 90%;
+    height: auto;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  .title-block h2 {
+    font-size: 28px;
+  }
+
+  .title-block p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .wrap {
+    height: 335px;
+    width: 265px;
+    margin: 0 auto;
+  }
+
+  .wrap::before {
+    content: "";
+    height: 278px;
+    width: 305px;
+    background: #e6e8eb;
+    position: absolute;
+    top: 30px;
+    left: -21px;
+  }
+
+  .img2 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img4 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-block-wrapper {
+    height: auto;
+  }
+
+  .about-us {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-right {
+    width: 80%;
+    padding-top: 85px;
+    padding-bottom: 45px;
+  }
+
+  .about-us-left {
+    width: 100%;
+    padding-top: 55px;
+  }
+
+  .future-works-wrapper {
+    width: auto;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: none;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .our-works1,
+  .our-works2,
+  .our-works3,
+  .our-works4,
+  .our-works5,
+  .our-works6 {
+    width: 300px;
+    height: 270px;
+  }
+
+  .services-wrapp {
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+
+  .service-bloks {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: auto;
+    padding: 45px 20px 0 20px;
+  }
+
+  .service-section {
+    &:nth-child(1) {
+      grid-column: initial;
+    }
+
+    &:nth-child(3) {
+      grid-column: initial;
+    }
+
+    &:nth-child(6) {
+      grid-column: initial;
+    }
+  }
+
+  .text-servise-block-wrapper {
+    width: 85%;
+    padding-left: 30px;
+  }
+
+  .text-servise-block-wrapper h3 {
+    font-size: 17px;
+  }
+
+  .text-servise-block-wrapper p {
+    font-size: 12px;
+  }
+
+  .text-servise-block-wrapper a {
+    line-height: 5em;
+  }
+
+  .our-team {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 440px);
+    width: auto;
+    padding: 50px 20px 70px 20px;
+  }
+
+  .hidden-text-wrapper {
+    padding-top: 25px;
+    padding-left: 22px;
+    width: 93%;
+  }
+
+  .hidden-text-wrapper h4 {
+    font-size: 15px;
+
+    span {
+      font-size: 13px;
+    }
+  }
+
+  .hidden-text-wrapper p {
+    font-size: 13px;
+  }
+
+  .hidden {
+    height: 225px;
+  }
+
+  .review-blocks {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .wrap-slider-2 {
+    height: 335px;
+    width: 265px;
+    margin: 0 auto;
+  }
+
+  .wrap-slider-2::before {
+    content: "";
+    height: 278px;
+    width: 305px;
+    background: #e6e8eb;
+    position: absolute;
+    top: 30px;
+    left: -21px;
+  }
+
+  .review-block-left {
+    width: 95%;
+    padding-top: 60px;
+  }
+
+  .review-block-right {
+    width: 95%;
+    margin-top: 75px; // при padding не работает верхний css слайдер
+  }
+
+  .carousel-content {
+    height: 315px !important;
+  }
+
+  .carousel-content h4 {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .carousel-content p {
+    padding-bottom: 20px;
+  }
+
+  .review-block-wrapp {
+    height: 1035px;
+  }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+  header {
+    height: 80vh;
+  }
+
+  .logo {
+    top: 40px;
+    left: 60px;
+  }
+
+  .glass {
+    right: 80px;
+    bottom: 80px;
+  }
+
+  .title-block {
+    padding-top: 60px;
+  }
+
+  .title-block p {
+    line-height: 1.8em;
+  }
+
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .about-block-wrapper {
+    height: auto;
+  }
+
+  .about-us-left {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .about-us-right {
+    width: 80%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .wrap {
+    margin: 0 auto;
+    width: 550px;
+    height: 580px;
+  }
+
+  .wrap::before {
+    content: "";
+    height: 485px;
+    width: 630px;
+  }
+
+  .img2 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img4 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .future-works-wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 335px 335px 335px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .text-servise-block-wrapper {
+    width: 75%;
+    padding-left: 35px;
+  }
+
+  .text-servise-block-wrapper h3 {
+    font-size: 18px;
+    line-height: 2em;
+  }
+
+  .service-bloks {
+    padding: 80px 20px 0 20px;
+    width: auto;
+    grid-template-rows: 340px 320px 320px;
+  }
+
+  .our-team {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 440px);
+    width: auto;
+    padding: 80px 20px 80px 20px;
+  }
+
+  .hidden {
+    height: 230px;
+  }
+
+  .hidden-text-wrapper h4 {
+    font-size: 15px;
+  }
+
+  .hidden-text-wrapper p {
+    font-size: 15px;
+  }
+
+  .hidden-text-wrapper {
+    padding-left: 30px;
+  }
+
+  .review-block-wrapp {
+    height: 1320px;
+  }
+
+  .review-blocks {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .review-block-left {
+    width: auto;
+    padding-top: 70px;
+  }
+
+  .review-block-right {
+    width: 80%;
+    margin-top: 85px; // при padding не работает верхний css слайдер
+  }
+
+  .carousel-content h4 {
+    font-size: 23px;
+    padding-top: 40px;
+  }
+
+  .carousel-content p {
+    font-size: 22px;
+    width: 85%;
+  }
+
+  .review-block-wrapp {
+    height: 1200px;
+  }
+}
+
+
+@media screen and (min-width : 1224px) {}
+
+
+@media screen and (min-width : 1824px) {}
