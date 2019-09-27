@@ -9,12 +9,18 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="build/css/style.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
 </head>
 
 <body>
+
+  <div id="p_prldr"> <!--Заставка при загрузке страницы-->>
+    <div class="contpre"><span class="svg_anm"></span></div>
+  </div>
+
   <header>
     <img class="logo" src="src/img/logo.png" alt="logo">
     <p class="header-title">Say Hello to <span>SHOPNO!</span> <br> <span>Agency</span> CORPORATE SHOPNO Theme</p>
@@ -228,13 +234,17 @@
           <h4> AL RAYHAN <span>/ UI Designer</span></h4>
           <p>Lorem Ipsum is not simply is an action designer random text <br> It has roots in a piece. </p>
           <ul>
-            <li> <a href="https://www.facebook.com/" target="_blank"> <img src="build/img/fb-icon.png" alt="fb"> </a>
+            <li> <a href="https://www.facebook.com/" target="_blank"> <img src="build/img/fb-icon.png" alt="facebook">
+              </a>
             </li>
-            <li> <a href="https://twitter.com/?lang=ru" target="_blank"> <img src="build/img/tw-icon.png" alt="fb"> </a>
+            <li> <a href="https://twitter.com/?lang=ru" target="_blank"> <img src="build/img/tw-icon.png" alt="twitter">
+              </a>
             </li>
-            <li> <a href="https://dribbble.com/" target="_blank"> <img src="build/img/drbb-icon.png" alt="fb"> </a>
+            <li> <a href="https://dribbble.com/" target="_blank"> <img src="build/img/drbb-icon.png" alt="dribbble">
+              </a>
             </li>
-            <li> <a href="https://www.facebook.com/" target="_blank"> <img src="build/img/mail-icon.png" alt="fb"> </a>
+            <li> <a href="https://www.facebook.com/" target="_blank"> <img src="build/img/mail-icon.png" alt="mail">
+              </a>
             </li>
           </ul>
         </div>
@@ -273,34 +283,80 @@
           <p>Lorem Ipsum is simply dummy text of the printing and you
             standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.</p>
-            <ul class="stars">
-              <li><img src="build/img/star.png" alt="star"></li>
-              <li><img src="build/img/star.png" alt="star"></li>
-              <li><img src="build/img/star.png" alt="star"></li>
-              <li><img src="build/img/star.png" alt="star"></li>
-              <li><img src="build/img/star.png" alt="star"></li>
-            </ul>
+          <ul class="stars">
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+          </ul>
         </div>
         <div class="carousel-content">
-            <h4> AL RAYHAN <span>/ UI Designer</span></h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and you
-              standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.</p>
-              <ul class="stars">
-                <li><img src="build/img/star.png" alt="star"></li>
-                <li><img src="build/img/star.png" alt="star"></li>
-                <li><img src="build/img/star.png" alt="star"></li>
-                <li><img src="build/img/star.png" alt="star"></li>
-                <li><img src="build/img/star.png" alt="star"></li>
-              </ul>
-          </div>
+          <h4> AL RAYHAN <span>/ UI Designer</span></h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and you
+            standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+          <ul class="stars">
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+            <li><img src="build/img/star.png" alt="star"></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
+  <div class="background-block">
+    <div class="form-map-wrapper">
+      <form autocomplete="off">
+        <label for="name">Name*</label>
+        <input type="text" name="name" id="name" required>
+        <label for="subject">Subject*</label>
+        <input type="text" name="subject" required>
+        <label for="email">E-mail*</label>
+        <input type="email" name="email" required>
+        <label for="message">Message*</label>
+        <textarea name="message" cols="30" rows="3" required></textarea>
+        <button class="button-form">SEND MESSAGE</button>
+      </form>
+      <div class="map-adress">
+        <ul>
+          <li>Adress line 1 </li>
+          <li>Adress line 2 </li>
+          <li>Phone: <a href="tel:+548945645">+548 945645</a> </li>
+          <li>Fax: <a href="tel:+45645654546"></a>+456 45654546 </li>
+        </ul>
+        <div class="emai-adresses">
+          <a href="www.designagency.net">Web: www.designagency.net</a>
+          <a href="mailto:info@designagency.net">E-mail: info@designagency.net</a>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23817.087400513363!2d-122.45100545779403!3d37.7627182189819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sby!4v1569582991443!5m2!1sru!2sby"
+            width="450" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h4>FOLLOW US</h4>
+    <ul>
+      <li> <a class="link-footer-1" href="https://www.pinterest.com/" target="_blank"> </a>
+      </li>
+      <li> <a class="link-footer-2" href="https://www.facebook.com/" target="_blank"> </a>
+      </li>
+      <li> <a class="link-footer-3" href="https://twitter.com/?lang=ru" target="_blank"> </a>
+      </li>
+      <li> <a class="link-footer-4" href="https://dribbble.com/" target="_blank"> </a>
+    </ul>
+    <p>Copyright Masum Parvej, All Rights Reserved</p>
+  </footer>
+
 
   <button class="btn-top" title="Go to top">UP</button>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="slick/slick.min.js"></script>
   <script src="build/js/script.js"></script>
 </body>
 
