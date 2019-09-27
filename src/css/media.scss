@@ -237,6 +237,49 @@
   .review-block-wrapp {
     height: 1035px;
   }
+
+  .background-block {
+    background-size: cover;
+    height: 970px;
+  }
+
+  .form-map-wrapper {
+    flex-direction: column;
+    width: 90%;
+    padding-top: 25px;
+  }
+
+  form {
+    width: auto;
+    padding-left: 25px;
+  }
+
+  .button-form {
+    width: auto;
+    margin-right: 25px;
+  }
+
+  .map-adress {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .map {
+    width: 92%;
+  }
+
+  iframe {
+    width: 92%;
+  }
+
+  footer {
+    height: 200px;
+
+    p {
+      font-size: 13px;
+    }
+  }
+
 }
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
@@ -354,7 +397,7 @@
   }
 
   .review-block-wrapp {
-    height: 1320px;
+    height: 1330px;
   }
 
   .review-blocks {
@@ -382,9 +425,48 @@
     width: 85%;
   }
 
-  .review-block-wrapp {
-    height: 1200px;
+  .background-block {
+    background-size: cover;
+    height: 970px;
   }
+
+  .form-map-wrapper {
+    flex-direction: column;
+    width: 90%;
+    padding-top: 25px;
+  }
+
+  form {
+    width: auto;
+    padding-left: 63px;
+  }
+
+
+  .map-adress {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .map {
+    width: 97%;
+  }
+
+  iframe {
+    width: 97%;
+  }
+
+  .map-adress ul {
+    padding-left: 62px;
+  }
+
+  .emai-adresses {
+    padding-left: 62px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
 }
 
 
